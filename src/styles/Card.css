@@ -1,0 +1,11 @@
+.Card{
+    width: 35%;
+    display: flex;
+    box-shadow: 1px 5px 8px;
+    border-radius: 10px;
+}
+
+.Card-text{
+    display: flex;
+    flex-direction: column;
+}
