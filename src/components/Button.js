@@ -12,6 +12,7 @@ class Button extends React.Component {
   }
 }
 
+//Definitions of props used in this components
 Button.propTypes = {
   text: PropTypes.string,
   link: PropTypes.string
