@@ -1,0 +1,19 @@
+.button{
+    background-color: #FD890D;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: black;
+}
