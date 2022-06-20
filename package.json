@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "npx prettier --write .",
+    "eslint": "npx eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +39,9 @@
   },
   "devDependencies": {
     "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.30.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
   }
 }

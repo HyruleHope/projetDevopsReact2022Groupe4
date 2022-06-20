@@ -9,8 +9,8 @@ import VintageExpo from "../assets/vintage-expo.jpg";
 import divider from "../assets/divider.png";
 import "../styles/ActivityPage.css";
 
-class ActivityPage extends React.Component{
-  render(){
+class ActivityPage extends React.Component {
+  render() {
     return (
       <div className="activity-page">
         <div className="top-section">
@@ -22,7 +22,11 @@ class ActivityPage extends React.Component{
             <p>{this.props.description}</p>
             <p>Prix TTC du Séminaire : {this.props.price} €</p>
             <p>Vous êtes intéréssé par cette activité :</p>
-            <Button classname="Button1" text="Contactez-nous" link="mailto:a_brusa@etu-webschoolfactory.fr"/>
+            <Button
+              classname="Button1"
+              text="Contactez-nous"
+              link="mailto:a_brusa@etu-webschoolfactory.fr"
+            />
           </div>
         </div>
         <div className="see-also">
@@ -30,12 +34,12 @@ class ActivityPage extends React.Component{
           <img className="divider" src={divider}></img>
         </div>
         <div className="activity-list">
-          <Card text="Ballade en Harley Davidson" price="1500" image={harley}/>
-          <Card text="Parcous de BMX" price="70" image={bmx}/>
+          <Card text="Ballade en Harley Davidson" price="1500" image={harley} />
+          <Card text="Parcous de BMX" price="70" image={bmx} />
         </div>
         <div className="activity-list">
-          <Card text="Musique en voiture" price="500" image={Musicar}/>
-          <Card text="Visite du musée Renault" price="20" image={VintageExpo}/>
+          <Card text="Musique en voiture" price="500" image={Musicar} />
+          <Card text="Visite du musée Renault" price="20" image={VintageExpo} />
         </div>
       </div>
     );

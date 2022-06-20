@@ -9,7 +9,6 @@ function importAll(r) {
   });
   return images;
 }
-// eslint-disable-next-line no-undef
 const assets = importAll(
   require.context("../assets", false, /\.(png|jpe?g|svg)$/)
 );
