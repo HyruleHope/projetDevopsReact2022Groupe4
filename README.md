@@ -1,3 +1,8 @@
+### Dev Team :
+
+_Amelin Brusa, Théo Macron, Corentin Nodé-Langlois_
+_Link to our website :_ https://wsf-motorway.netlify.apps
+
 # To explain the structure of the project :
 
 All the project begin at the root of "index.js" in the "src" folder, after that, all the sub-files are ordered in folders :
