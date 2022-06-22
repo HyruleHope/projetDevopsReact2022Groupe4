@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'roboto', sans-serif;
+    background-image: url(../assets/carousel_1.png);
+    background-size: cover;
+    background-position: center center;
+    padding-left: 5vw;
+    padding-top: 20vh;
+}
+.anim-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100vh;
+}
+.shutter{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: black;
+}
+.shutter.top{
+    top: 0;
+    z-index: 2;
+    animation: slide-top 2s 2.5s forwards 1;
+}
+.shutter.bottom{
+    bottom: 0;
+    animation: slide-bottom 2s 2.5s forwards 1;
+}
+.shutter.top::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: orange;
+    bottom: 0;
+    left: -100%;
+    animation: slide-in-out 1s 1.5s forwards 1;
+}
+
+@keyframes slide-in-out {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@keyframes slide-top {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -100%;
+    }
+}
+@keyframes slide-bottom {
+    0%{
+        bottom: 0;
+    }
+    100%{
+        bottom: -100%;
+    }
+}
+
+.car-carousel{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/carousel_1.png);
+    background-size: cover;
+    background-position: center center;
+    padding-left: 5vw;
+    padding-top: 20vh;
+}
+.carousel:nth-child(2){
+    background: url(../assets/carousel_2.png);
+    background-size: cover;
+    z-index: -1;
+}
+.carousel:nth-child(3){
+    background: url(../assets/carousel_3.png);
+    background-size: cover;
+    z-index: -1;
+}
+.carousel .title{
+    color: white;
+    font-size: 120px;
+    text-transform: uppercase;
+    opacity: 0;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+    border: none;
+    opacity: 0;
+    clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../assets/btn.png);
+    background-size: 100% 100%;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.carousel.active{
+    z-index: 2;
+}
+.carousel.active .title,
+.carousel.active .btn{
+    opacity: 0;
+    animation: fade-up 1s forwards 1;
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
