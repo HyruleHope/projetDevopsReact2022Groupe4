@@ -21,19 +21,22 @@ body {
   background-position: center center;
   padding-left: 5vw;
   padding-top: 20vh;
-  background-repeat:no-repeat;
-  background-image: -webkit-linear-gradient(top, 
-      rgba(0,0,0,0.9) 0%, 
-      rgba(0,0,0,0) 20%,
-      rgba(0,0,0,0) 80%,
-      rgba(0,0,0,0.9) 100%
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.9) 100%
     ),
-    -webkit-linear-gradient(left, 
-      rgba(0,0,0,0.9) 0%, 
-      rgba(0,0,0,0) 20%,
-      rgba(0,0,0,0) 80%,
-      rgba(0,0,0,0.9) 100%
-    ), url(../assets/lambo.jpeg);
+    -webkit-linear-gradient(left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 20%, rgba(
+            0,
+            0,
+            0,
+            0
+          )
+          80%, rgba(0, 0, 0, 0.9) 100%),
+    url(../assets/lambo.jpeg);
 }
 .anim-container {
   position: fixed;
@@ -95,98 +98,17 @@ body {
     bottom: -100%;
   }
 }
-.title{
+.title {
   color: rgb(220, 220, 220);
 }
-.text{
+.text {
   color: rgb(220, 220, 220);
   padding-top: 500px;
 }
-
-.car-carousel {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-.carousel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/carousel_1.png);
-  background-size: cover;
-  background-position: center center;
-  padding-left: 5vw;
-  padding-top: 20vh;
-}
-.carousel:nth-child(2) {
-  background: url(../assets/carousel_2.png);
-  background-size: cover;
-  z-index: -1;
-}
-.carousel:nth-child(3) {
-  background: url(../assets/carousel_3.png);
-  background-size: cover;
-  z-index: -1;
-}
-.carousel .title {
-  color: white;
-  font-size: 120px;
-  text-transform: uppercase;
-  opacity: 0;
-}
-.btn {
-  width: 150px;
-  height: 40px;
-  margin-top: 20px;
-  background: none;
-  color: white;
-  text-transform: capitalize;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.5s;
-  text-align: left;
-  padding-left: 30px;
-  position: relative;
-  border: none;
-  opacity: 0;
-  clip-path: polygon(0 0, 82% 0, 100% 100%, 0% 100%);
-}
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url(../assets/btn.png);
-  background-size: 100% 100%;
-}
-.btn:hover {
-  background: white;
-  color: black;
-}
-.carousel.active {
-  z-index: 2;
-}
-.carousel.active .title,
-.carousel.active .btn {
-  opacity: 0;
-  animation: fade-up 1s forwards 1;
-}
-
-@keyframes fade-up {
-  0% {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-.activity{
-  position: absolute;
-  top: 700px;
+.activity {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: -100px;
 }

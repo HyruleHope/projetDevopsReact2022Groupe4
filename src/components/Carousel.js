@@ -6,11 +6,11 @@ const carousels = [...document.querySelectorAll(".carousel")];
 let carousel_index = 0;
 
 setTimeout(() => {
-	animContainer.remove();
-	carousels[0].classList.add("active");
+  animContainer.remove();
+  carousels[0].classList.add("active");
 }, 3500);
 {
-	/* <div className="car-carousel">
+  /* <div className="car-carousel">
 				<div className="carousel">
 					<h1 className="title">
 						Tour de <br>circuit</br>
