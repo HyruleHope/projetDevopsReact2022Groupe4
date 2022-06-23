@@ -19,10 +19,10 @@ const Landing = () => {
 					<span className="shutter bottom"></span>
 				</div>
 				<div className="title">
-					<h2>VIVEZ UNE EXPERIENCE INOUBLIABLE</h2>
+					<h1>VIVEZ UNE EXPERIENCE INOUBLIABLE</h1>
 				</div>
 				<div className="text">
-					<h1>Découvrez nos offres :</h1>
+					<h1>Découvrez nos activités :</h1>
 				</div>
 				<div className="activity">
 					<ActivityCard
