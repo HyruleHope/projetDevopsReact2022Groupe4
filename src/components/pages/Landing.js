@@ -1,36 +1,39 @@
 import React from "react";
 import "../../styles/Landing.css";
+import ActivityCard from "../ActivityCard";
+import "../../styles/Card.css";
+import harley from "../../assets/harley.jpg";
+import motoGP from "../../assets/motoGP.jpg";
 
 const Landing = () => {
-  return (
-    <div className="main">
-      <div className="anim-container">
-        <span className="shutter top"></span>
-        <span className="shutter bottom"></span>
-      </div>
-      {/* <div className="car-carousel">
-				<div className="carousel">
-					<h1 className="title">
-						Tour de <br>circuit</br>
-					</h1>
-					<button className="btn">Explore</button>
+	return (
+		<body>
+			<div className="intro">
+				<div className="anim-container">
+					<span className="shutter top"></span>
+					<span className="shutter bottom"></span>
 				</div>
-				<div className="carousel">
-					<h1 className="title">
-						Experiences <br>inoubliables</br>
-					</h1>
-					<button className="btn">Explore</button>
+				<div className="title">
+					<h2>VIVEZ UNE EXPERIENCE INOUBLIABLE</h2>
 				</div>
-				<div className="carousel">
-					<h1 className="title">
-						Concept <br>incroyable</br>
-					</h1>
-					<button className="btn">Explore</button>
+				<div className="text">
+					<h1>Découvrez nos offres :</h1>
 				</div>
-			</div> */}
-      <script src="../Carousel.js"></script>
-    </div>
-  );
+				<div className="activity">
+					<ActivityCard
+						text="Ballade en Harley Davidson"
+						price="1500"
+						image={harley}
+					/>
+					<ActivityCard
+						text="tour de piste en Moto GP"
+						price="2000"
+						image={motoGP}
+					/>
+				</div>
+			</div>
+		</body>
+	);
 };
 
 export default Landing;
