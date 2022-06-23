@@ -2,13 +2,13 @@ import React from "react";
 import "../../styles/Landing.css";
 
 const Landing = () => {
-	return (
-		<div className="main">
-			<div className="anim-container">
-				<span className="shutter top"></span>
-				<span className="shutter bottom"></span>
-			</div>
-			{/* <div className="car-carousel">
+  return (
+    <div className="main">
+      <div className="anim-container">
+        <span className="shutter top"></span>
+        <span className="shutter bottom"></span>
+      </div>
+      {/* <div className="car-carousel">
 				<div className="carousel">
 					<h1 className="title">
 						Tour de <br>circuit</br>
@@ -28,9 +28,9 @@ const Landing = () => {
 					<button className="btn">Explore</button>
 				</div>
 			</div> */}
-			<script src="../Carousel.js"></script>
-		</div>
-	);
+      <script src="../Carousel.js"></script>
+    </div>
+  );
 };
 
 export default Landing;

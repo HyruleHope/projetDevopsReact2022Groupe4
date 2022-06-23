@@ -1,4 +1,4 @@
-const animContainer = document.querySelector('.anim-container');
+const animContainer = document.querySelector(".anim-container");
 
 const carousels = [...document.querySelectorAll(".carousel")];
 
@@ -6,6 +6,6 @@ const carousels = [...document.querySelectorAll(".carousel")];
 let carousel_index = 0;
 
 setTimeout(() => {
-	animContainer.remove();
-	carousels[0].classList.add("active");
+  animContainer.remove();
+  carousels[0].classList.add("active");
 }, 3500);
