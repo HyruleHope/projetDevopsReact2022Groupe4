@@ -1,5 +1,6 @@
 import "../styles/App.css";
 import React from "react";
+import Header from "../components/Header";
 
 //Function to import on app the whole assets folder, to avoid importing all pictures at once
 function importAll(r) {
@@ -16,6 +17,7 @@ const assets = importAll(
 function App() {
   return (
     <div className="App">
+      <Header/>
       <header className="App-header">
         <img src={assets["logo.svg"]} className="App-logo" alt="logo" />
         <p>
