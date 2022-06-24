@@ -7,9 +7,9 @@ class Header extends React.Component {
     return (
         <div className="Header">
             <header className="Header-buttons">
-                 <Button text="Acceuil" link=""/>
-               <Button text="Qui somme-nous ?" link=""/>
-               <Button text="Erreur" link=""/>
+              <Button text="Accueil" link="/"/>
+              <Button text="Qui somme-nous ?" link="/Faq"/>
+              <Button text="Erreur" link="/404"/>
             </header>
         </div>
     );
