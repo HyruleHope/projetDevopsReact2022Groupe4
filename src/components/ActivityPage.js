@@ -7,12 +7,14 @@ import bmx from "../assets/bmx.jpg";
 import Musicar from "../assets/panda.jpg";
 import VintageExpo from "../assets/vintage-expo.jpg";
 import divider from "../assets/divider.png";
+import Header from "../components/Header";
 import "../styles/ActivityPage.css";
 
 class ActivityPage extends React.Component {
   render() {
     return (
       <div className="activity-page">
+        <Header/>
         <div className="top-section">
           <div className="section-image">
             <img src={this.props.image} alt="photo de l'activité"></img>
