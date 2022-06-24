@@ -29,33 +29,38 @@ const Landing = () => {
 						text="Balade en Harley Davidson"
 						price="1500"
 						image={harley}
+						link="Harley"
 					/>
 					<ActivityCard
 						text="Tour de piste en Moto GP"
 						price="2000"
 						image={motoGP}
+						link="MotoGP"
 					/>
 				</div>
 				<div className="activity">
-					<ActivityCard text="Parcours de Moto-cross" price="70" image={bmx} />
-					<ActivityCard text="Musique en voiture" price="500" image={musicar} />
+					<ActivityCard text="Parcours de Moto-cross" price="70" image={bmx} link="Bmx"/>
+					<ActivityCard text="Musique en voiture" price="500" image={musicar} link="Musicar"/>
 				</div>
 				<div className="activity">
 					<ActivityCard
 						text="Visite du musée Renault"
 						price="20"
 						image={vintageExpo}
+						link="VintageExpo"
 					/>
 					<ActivityCard
 						text="Course privée de Formule 1"
 						price="3500"
 						image={formule1}
+						link="Formula1"
 					/>
 				</div>
 				<ActivityCard
 					text="Essaie de la dernière Tesla"
 					price="(Par personne) 250"
 					image={tesla}
+					link="Tesla"
 				/>
 			</div>
 		</body>
