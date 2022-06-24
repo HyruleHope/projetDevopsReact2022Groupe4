@@ -4,7 +4,7 @@ import Header from "../components/Header";
 function errorPage() {
   return (
     <div className="errorPage">
-      <Header/>
+      <Header />
       <p>This is the 404 error page</p>
     </div>
   );
