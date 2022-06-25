@@ -14,7 +14,7 @@ class ActivityPage extends React.Component {
   render() {
     return (
       <div className="activity-page">
-        <Header/>
+        <Header />
         <div className="top-section">
           <div className="section-image">
             <img src={this.props.image} alt="photo de l'activité"></img>
@@ -36,12 +36,27 @@ class ActivityPage extends React.Component {
           <img className="divider" src={divider}></img>
         </div>
         <div className="activity-list">
-          <Card text="Ballade en Harley Davidson" price="1500" image={harley} link="Harley"/>
-          <Card text="Parcous de BMX" price="70" image={bmx} link="Bmx"/>
+          <Card
+            text="Ballade en Harley Davidson"
+            price="1500"
+            image={harley}
+            link="Harley"
+          />
+          <Card text="Parcous de BMX" price="70" image={bmx} link="Bmx" />
         </div>
         <div className="activity-list">
-          <Card text="Musique en voiture" price="500" image={Musicar} link="Musicar"/>
-          <Card text="Visite du musée Renault" price="20" image={VintageExpo} link="VintageExpo"/>
+          <Card
+            text="Musique en voiture"
+            price="500"
+            image={Musicar}
+            link="Musicar"
+          />
+          <Card
+            text="Visite du musée Renault"
+            price="20"
+            image={VintageExpo}
+            link="VintageExpo"
+          />
         </div>
       </div>
     );

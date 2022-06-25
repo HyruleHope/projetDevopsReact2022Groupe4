@@ -13,7 +13,7 @@ function errorPage() {
                 <a href="/">Revenir sur le site</a>
             </div>
         </div>
-    </body>
+      </body>
     </div>
   );
 }

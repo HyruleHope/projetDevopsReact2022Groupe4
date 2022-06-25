@@ -4,13 +4,13 @@ import "./styles/index.css";
 import App from "./pages/App";
 import ErrorPage from "./pages/404";
 import Faq from "./pages/Faq";
-import Bmx from "./pages/activities/Bmx"
-import Formula1 from "./pages/activities/Formula1"
-import Harley from "./pages/activities/Harley"
-import MotoGP from "./pages/activities/MotoGP"
-import Musicar from "./pages/activities/Musicar"
-import Tesla from "./pages/activities/Tesla"
-import VintageExpo from "./pages/activities/VintageExpo"
+import Bmx from "./pages/activities/Bmx";
+import Formula1 from "./pages/activities/Formula1";
+import Harley from "./pages/activities/Harley";
+import MotoGP from "./pages/activities/MotoGP";
+import Musicar from "./pages/activities/Musicar";
+import Tesla from "./pages/activities/Tesla";
+import VintageExpo from "./pages/activities/VintageExpo";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
