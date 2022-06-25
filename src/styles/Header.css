@@ -1,8 +1,4 @@
-.Header{
-    background-color: black;
-}
-
-.Header-buttons{
+.Header-buttons {
     display: flex;
     justify-content: space-around;
     width: 70%;

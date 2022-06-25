@@ -1,0 +1,55 @@
+.Faq {
+  background-color: #ffffff;
+}
+
+.Faq p {
+  color: #ffffff;
+}
+
+.FaqTitle {
+  text-align: center;
+}
+
+.layout {
+  width: 600px;
+  margin: auto;
+}
+
+.accordion {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #000000;
+  border-radius: 10px;
+}
+
+.accordion__question p {
+  margin: 5px;
+  padding: 0;
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.accordion__answer p {
+  margin: 5px;
+  padding: 10px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fd8900;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.accordion:hover {
+  cursor: pointer;
+}
+
+/*
+.accordion__answer {
+  display: none;
+}
+*/
+
+.accordion.active .accordion__answer {
+  display: block;
+}
