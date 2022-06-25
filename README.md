@@ -1,7 +1,7 @@
 ### Dev Team :
 
 _Amelin Brusa, Théo Macron, Corentin Nodé-Langlois_
-_Link to our website :_ https://wsf-motorway.netlify.apps
+_Link to our website :_ https://wsf-motorway.netlify.app
 
 # To explain the structure of the project :
 

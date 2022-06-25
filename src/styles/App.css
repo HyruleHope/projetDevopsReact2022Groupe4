@@ -9,7 +9,6 @@
 }
 
 .landingPage {
-  width: 100%;
   min-height: 100vh;
   position: relative;
   font-family: "roboto", sans-serif;
@@ -23,21 +22,8 @@
   padding-left: 5vw;
   padding-top: 20vh;
   background-repeat: no-repeat;
-  background-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.9) 0%,
-      rgba(0, 0, 0, 0) 20%,
-      rgba(0, 0, 0, 0) 80%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
-    -webkit-linear-gradient(left, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 20%, rgba(
-            0,
-            0,
-            0,
-            0
-          )
-          80%, rgba(0, 0, 0, 0.9) 100%),
-    url(../assets/lambo.jpeg);
+  background-image: url(../assets/lambo.jpeg);
+
 }
 
 .anim-container {
@@ -60,12 +46,12 @@
 .shutter.top {
   top: 0;
   z-index: 2;
-  animation: slide-top 2s 2.5s forwards 1;
+  animation: slide-top 0s 0s forwards 1;
 }
 
 .shutter.bottom {
   bottom: 0;
-  animation: slide-bottom 2s 2.5s forwards 1;
+  animation: slide-bottom 0s 0s forwards 1;
 }
 
 .shutter.top::after {
@@ -76,7 +62,7 @@
   background: orange;
   bottom: 0;
   left: -100%;
-  animation: slide-in-out 1s 1.5s forwards 1;
+  animation: slide-in-out 0s 0s forwards 1;
 }
 
 @keyframes slide-in-out {
@@ -131,5 +117,5 @@
 }
 
 .header {
-  margin-top: -9%;
+  margin-top: -9.8%;
 }
