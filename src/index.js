@@ -20,15 +20,15 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/404" element={<ErrorPage />} />
-        <Route path="/Faq" element={<Faq />} />
-        <Route path="/Bmx" element={<Bmx />} />
-        <Route path="/Formula1" element={<Formula1 />} />
-        <Route path="/Harley" element={<Harley />} />
-        <Route path="/MotoGP" element={<MotoGP />} />
-        <Route path="/Musicar" element={<Musicar />} />
-        <Route path="/Tesla" element={<Tesla />} />
-        <Route path="/VintageExpo" element={<VintageExpo />} />
+        <Route path="404" element={<ErrorPage />} />
+        <Route path="Faq" element={<Faq />} />
+        <Route path="Bmx" element={<Bmx />} />
+        <Route path="Formula1" element={<Formula1 />} />
+        <Route path="Harley" element={<Harley />} />
+        <Route path="MotoGP" element={<MotoGP />} />
+        <Route path="Musicar" element={<Musicar />} />
+        <Route path="Tesla" element={<Tesla />} />
+        <Route path="VintageExpo" element={<VintageExpo />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
