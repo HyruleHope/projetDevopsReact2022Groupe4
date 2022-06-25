@@ -1,0 +1,26 @@
+.Card {
+  display: flex;
+  width: fit-content;
+  box-shadow: 1px 5px 8px;
+  border-radius: 25px;
+  padding-left: 3%;
+}
+
+.Card-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+}
+
+.Card-img {
+  height: 200px;
+  background-color: black;
+  border-radius: 0px 25px 25px 0px;
+}
+
+.Card-img img {
+  border-radius: 0px 25px 25px 0px;
+  opacity: 70%;
+  width: 240px;
+  height: 200px;
+}
