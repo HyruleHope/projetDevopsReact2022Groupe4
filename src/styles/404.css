@@ -1,69 +1,69 @@
 .errorPage {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .errorPage H4 {
-    color: #ffffff;
-    margin-top: -40%;
+  color: #ffffff;
+  margin-top: -40%;
 }
 
 .errorBody {
-    background: linear-gradient(45deg, #ffffff, #fd8900);
-    height: 101.3vh;
+  background: linear-gradient(45deg, #ffffff, #fd8900);
+  height: 101.3vh;
 }
 
 #container {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    bottom: 10%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000000;
-    box-shadow: 0 15px 30px rgba(0, 0, 0.5);
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  box-shadow: 0 15px 30px rgba(0, 0, 0.5);
 }
 
 #container .content {
-    max-width: 600px;
-    text-align: center;
-    margin-top: -20%;
+  max-width: 600px;
+  text-align: center;
+  margin-top: -20%;
 }
 
 #container .content h2 {
-    font-size: 18vw;
-    color: #ffffff;
-    line-height: 1em;
+  font-size: 18vw;
+  color: #ffffff;
+  line-height: 1em;
 }
 
 #containe .content h4 {
-    position: relative;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #000000;
-    background: #ffffff;
-    font-weight: 300;
-    padding: 10px 20px;
-    display: inline-block;
+  position: relative;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #000000;
+  background: #ffffff;
+  font-weight: 300;
+  padding: 10px 20px;
+  display: inline-block;
 }
 
 #container .content p {
-    color: #ffffff;
-    font-size: 1.2em;
+  color: #ffffff;
+  font-size: 1.2em;
 }
 
 #container .content a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 25px;
-    background: #ffffff;
-    color: #000000;
-    text-decoration: none;
-    margin-top: 25px;
-    border-radius: 25px;
-    border-bottom: 4px solid #fd8900;
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 25px;
+  border-radius: 25px;
+  border-bottom: 4px solid #fd8900;
 }
