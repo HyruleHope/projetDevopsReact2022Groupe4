@@ -17,10 +17,6 @@ function App() {
         <Header />
       </div>
       <div className="intro">
-        <div className="anim-container">
-          <span className="shutter top"></span>
-          <span className="shutter bottom"></span>
-        </div>
         <div className="title">
           <h1>VIVEZ UNE EXPERIENCE INOUBLIABLE</h1>
         </div>
